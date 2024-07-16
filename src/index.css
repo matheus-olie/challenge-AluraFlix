@@ -1,0 +1,25 @@
+:root {
+  --fonte-principal: 'source-sans-pro', sans-serif;
+  --fonte-secundaria: 'Roboto', sans-serif;
+  --branco: #FFFFFF;
+  --preto: #000000;
+  --cinza: #191919;
+  --azul: #03122F;
+  --blue: #2271D1;
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--cinza);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

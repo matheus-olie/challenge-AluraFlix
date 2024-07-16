@@ -1,0 +1,22 @@
+.container {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;  
+}
+
+.container h2 {
+    font-size: 78px;
+    color: var(--branco);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: var(--blue);
+    text-shadow: 0 0 1rem var(--blue);
+    margin: 10px;
+}
+
+.container p {
+    font-size: 22px;
+    margin: 0;
+    color: var(--blue);
+}
